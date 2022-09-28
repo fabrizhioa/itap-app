@@ -7,7 +7,7 @@ const Hero = () => {
 
 <section class="px-2 pt-32 bg-white md:px-0">
     <div class="container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
-        <h1 class="text-5xl font-extrabold tracking-tight text-left text-gray-900 sm:text-5xl md:text-5xl md:text-center">
+        <h1 class="text-5xl font-bold tracking-tight text-left text-gray-900 sm:text-5xl md:text-5xl md:text-center">
             <span class="block">La evolución del Menú se encuentra aquí  </span>
         </h1>
         <p class="w-full mx-auto text-base text-left text-gray-500 md:max-w-md sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
