@@ -3,7 +3,7 @@ import React from 'react';
 const Content2 = () => {
   return (
     <div>
-      4
+     <div className=" bg-hero-next bg-no-repeat p-80 bg-cover flex  "></div>
     </div>
   );
 };
