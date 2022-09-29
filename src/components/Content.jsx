@@ -3,16 +3,15 @@ import imagenes from "../assets/imagenes";
 
 const Content = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font ">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             Una Nueva Manera De Compartir
           </h1>
-          <p className="mb-8 leading-relaxed ">
+          <p className="mb-8 leading-relaxed text-black ">
             Mira el catalogo de cada uno de nuestros productos y los distinto
-            servicios que tenemos para ofrecerte, Nuestra calidad de atención
-            también es garantizada.
+            servicios que tenemos para ofrecerte.
           </p>
           <div className="flex justify-center">
             <button className="ml-1 inline-flex text-gray-100 bg-blue-600 border-0 py-3 px-3 focus:outline-none hover:bg-gray-200 rounded text-sm">
