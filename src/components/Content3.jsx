@@ -7,9 +7,7 @@ const Content3 = () => {
         <div className="flex flex-col w-full md:flex-row">
           <div className="max-w-6xl px-4  mx-auto border-solid justify-start lg:px-12">
             <div className="flex flex-col items-start leading-7 text-gray-900 border-0 border-gray-200 lg:items-center lg:flex-row">
-              <div className="box-border flex-1 text-center border-solid sm:text-left">
-                
-              </div>
+              <div className="box-border flex-1 text-center border-solid sm:text-left"></div>
             </div>
           </div>
         </div>
@@ -18,7 +16,7 @@ const Content3 = () => {
 
         <button
           href="#_"
-          className="inline-flex animate-bounce items-center transition delay-150 duration-300 ease-in-out  justify-center px-2 py-2 mt-2 ml-0 font-sans text-base leading-none text-white no-underline bg-blue-500 border border-blue-600 border-solid rounded cursor-pointer md:w-auto lg:mt-0 hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-indigo-700 focus-within:text-white sm:text-lg lg:ml-6 md:text-xl"
+          className="inline-flex animate-bounce items-center transition delay-150 duration-300 ease-in-out  justify-center px-2 py-2 mt-2 ml-0 font-sans text-base leading-none text-gray-100 no-underline bg-slate-700 border border-gray-900 border-solid rounded cursor-pointer md:w-auto lg:mt-0 hover:bg-gray-500 hover:border-gray-700 hover:text-white focus-within:bg-gray-700 focus-within:border-gray-700 focus-within:text-white sm:text-lg lg:ml-6 md:text-xl"
         >
           Ver Productos
           <svg

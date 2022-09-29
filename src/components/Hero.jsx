@@ -4,8 +4,8 @@ import imagenes from "../assets/imagenes";
 const Hero = () => {
   return (
     <section className="px-  bg-stone-200 md:px-0 bg-hero-pattern">
-      <div className="max-w-7xl  sm:py-5 sm:px-3 lg:px-5 sm:text-center">
-        <p className="mt- lg:text-4xl text-1xl  text-center  text-gray-900 s">
+      <div className="max-w-7xl  sm:py-10 py-6 sm:px-4 lg:px-6 font-momo font-semibold sm:text-center">
+        <p className=" lg:text-5xl sm:text-2xl text-2xl  text-center  text-gray-900 s">
           La evolución del Menú se encuentra aquí{" "}
         </p>
       </div>
