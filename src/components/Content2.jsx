@@ -17,8 +17,8 @@ const Content2 = () => {
                 strokeWidth="1.5"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                trokelinecap="round"
+                strokeLinejoin="round"
               >
                 <BsPersonCheck />
               </svg>
