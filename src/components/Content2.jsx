@@ -1,8 +1,8 @@
 import React from "react";
 import { AiOutlineWifi } from "react-icons/ai";
-import { MdOutlineQuickreply } from "react-icons/md";
+import { BsPersonCheck } from "react-icons/bs";
 import { BsShieldShaded } from "react-icons/bs";
-import { HiOutlineDeviceMobile } from "react-icons/hi";
+import { VscDeviceMobile } from "react-icons/vsc";
 const Content2 = () => {
   return (
     <section class="py-20 bg-gray-200  bg-cover bg-fixed overflow-y-auto bg-gradient-to-tr from-gray-600 via-gray-400 to-cyan-800  ">
@@ -20,7 +20,7 @@ const Content2 = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                <MdOutlineQuickreply/>
+                <BsPersonCheck />
               </svg>
             </div>
             <h4 class="text-xl font-medium text-gray-700">
@@ -43,7 +43,7 @@ const Content2 = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-               <AiOutlineWifi/>
+                <AiOutlineWifi />
               </svg>
             </div>
             <h4 class="text-xl font-medium text-gray-700">Tecnología NFC</h4>
@@ -65,7 +65,7 @@ const Content2 = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                <BsShieldShaded/>
+                <BsShieldShaded />
               </svg>
             </div>
             <h4 class="text-xl font-medium text-gray-700">
@@ -82,14 +82,14 @@ const Content2 = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="w-8 h-8 "
-                viewBox="0 0 15 15"
+                viewBox="0 0 16 15"
                 stroke-width="1.5"
                 stroke="currentColor"
                 fill="none"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-               <HiOutlineDeviceMobile/>
+                <VscDeviceMobile />
               </svg>
             </div>
             <h4 class="text-xl font-medium text-gray-700">Compatibilidad</h4>
