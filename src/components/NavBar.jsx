@@ -2,29 +2,37 @@ import React from 'react';
 
 const NavBar = () => {
   return (
-    <div>
-     <header className="text-gray-600 body-font  bg-slate-400 fixed">
-  <div className="container mx-auto flex flex-wrap p-5 bg-slate-400 flex-col md:flex-row items-center fixed">
-    <button className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 ">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
-      <span className="ml-3 text-xl">ITAP.</span>
-    </button>
-    <nav className="md:ml-auto md:mr-auto flex flex-wrap text-gray-100 items-center text-base justify-center">
-      <button className="mr-5 hover:text-gray-500">First Link</button>
-      <button className="mr-5 hover:text-gray-500">Second Link</button>
-      <button className="mr-5 hover:text-gray-500">Third Link</button>
-      <button className="mr-5 hover:text-gray-500">Fourth Link</button>
-    </nav>
-    <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-    </button>
-  </div>
-</header>
+    
+
+
+
+<section class="w-full px-8 text-gray-700 bg-white">
+    <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
+        <div class="relative flex flex-col md:flex-row">
+            <a href="#_" class="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0">
+                <span class="mx-auto text-xl font-black leading-none text-gray-900 select-none">tails<span class="text-indigo-600">.</span></span>
+            </a>
+            <nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
+                <a href="#_" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Home</a>
+                <a href="#_" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Features</a>
+                <a href="#_" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Pricing</a>
+                <a href="#_" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Blog</a>
+            </nav>
+        </div>
+
+        <div class="inline-flex items-center ml-5 space-x-6 lg:justify-end">
+            <a href="#" class="text-base font-medium leading-6 text-gray-600 whitespace-no-wrap transition duration-150 ease-in-out hover:text-gray-900">
+                Sign in
+            </a>
+            <a href="#" class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600">
+                Sign up
+            </a>
+        </div>
     </div>
+</section>
+
+
+    
   );
 };
 
