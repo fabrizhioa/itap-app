@@ -14,7 +14,7 @@ const Content2 = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-8 h-8 "
                 viewBox="0 0 15 15"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 fill="none"
                 stroke-linecap="round"
@@ -37,11 +37,11 @@ const Content2 = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-8 h-8 "
                 viewBox="0 0 15 15"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <AiOutlineWifi />
               </svg>
@@ -59,11 +59,11 @@ const Content2 = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-8 h-8 "
                 viewBox="0 0 15 16"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <BsShieldShaded />
               </svg>
@@ -83,11 +83,11 @@ const Content2 = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-8 h-8 "
                 viewBox="0 0 16 15"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <VscDeviceMobile />
               </svg>
