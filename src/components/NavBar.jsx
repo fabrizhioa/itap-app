@@ -9,7 +9,7 @@ const NavBar = () => {
             ITAP<span className="text-gray-00">.</span>
           </span>
         </button>
-        <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-gray-900 text-base justify-center">
+        <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-bold text-gray-900 font-semibold text-base justify-center">
           <button className="mr-5 hover:text-gray-300">Inicio</button>
           <button className="mr-5 hover:text-gray-300">Beneficios</button>
           <button className="mr-5 hover:text-gray-300">Productos</button>
@@ -17,14 +17,14 @@ const NavBar = () => {
           <button className="mr-5 hover:text-gray-300">Nosotros</button>
           <button className="mr-5 hover:text-gray-300">Contacto</button>
         </nav>
-        <button className="inline-flex items-center bg-gray-100 border-0 py-3 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+        <button className="inline-flex text-black items-center bg-gray-200 border-0 py-3 px-3 focus:outline-none hover:bg-gray-50 rounded text-base mt-4 md:mt-0">
           Comprar Ahora
           <svg
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             className="w-4 h-4 ml-1"
             viewBox="0 0 24 24"
           >
