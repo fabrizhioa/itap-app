@@ -1,33 +1,35 @@
-import React from 'react';
+import React from "react";
 import imagenes from "../assets/imagenes";
 
 const Content = () => {
   return (
-    
-
-
-
-<section class="text-gray-600 body-font">
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Una Nueva Manera De Compartir
-       
-      </h1>
-      <p class="mb-8 leading-relaxed ">Mira el catalogo de cada uno de nuestros productos y los distinto servicios que tenemos para ofrecerte, Nuestra calidad de atención también es garantizada.</p>
-      <div class="flex justify-center">
-        
-        <button class="ml-4 inline-flex text-gray-100 bg-blue-600 border-0 py-3 px-3 focus:outline-none hover:bg-gray-200 rounded text-sm">Comprar Ahora</button>
+    <section className="text-gray-600 body-font">
+      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            Una Nueva Manera De Compartir
+          </h1>
+          <p className="mb-8 leading-relaxed ">
+            Mira el catalogo de cada uno de nuestros productos y los distinto
+            servicios que tenemos para ofrecerte, Nuestra calidad de atención
+            también es garantizada.
+          </p>
+          <div className="flex justify-center">
+            <button className="ml-1 inline-flex text-gray-100 bg-blue-600 border-0 py-3 px-3 focus:outline-none hover:bg-gray-200 rounded text-sm">
+              Comprar Ahora
+            </button>
+          </div>
+        </div>
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            className="object-cover object-center rounded"
+            alt="hero"
+            src={imagenes.img1}
+          />
+        </div>
       </div>
-    </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src={imagenes.img1}/>
-    </div>
-  </div>
-</section>
-
+    </section>
   );
 };
-
-
 
 export default Content;
