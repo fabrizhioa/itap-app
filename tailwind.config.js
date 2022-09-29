@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        
+        
+        'hero-pepper': "url('./assets/img/louck9.jpg')",
+        
+      }
+    },
   },
   plugins: [],
-};
+}

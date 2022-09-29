@@ -3,16 +3,28 @@ import imagenes from "../assets/imagenes";
 
 const Content3 = () => {
   return (
-<section class="px- pt-2 bg-stone-300 md:px-0">
-    <div class="container items-center max-w-6xl px-5 mx-auto   text-center">
+
+
+
+
+<section class="flex items-center justify-center py-10 text-white bg-hero-pepper bg-cover  bg-white sm:py-16 md:py-24 lg:py-32">
+    <div class="relative max-w-3xl px-10 text-center text-white auto lg:px-0">
+        <div class="flex flex-col w-full md:flex-row">
+
         
-    
+          
+           
+        </div>
+
         
-    </div>
-    <div class=" max-w-9xl px-1 mx-auto mt- text-center">
-        <img src={imagenes.img6}/>
+        <div class="my-24 border-b border-gray-300 lg:my-72"></div>
+
+     
+        
     </div>
 </section>
+
+
   );
 };
 
