@@ -7,19 +7,27 @@ const NavBar = () => {
       <img alt="hero" className="w-52 h-full "  src={imagenes.img4} />
       
       
-        
+
       
        
       </div>
-      <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center  text-bold text-gray-900 font-semibold text-base justify-center">
+      
+      <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center   text-black   font-['Helvetica'] justify-center">
         
-        <button className="mr-5 hover:text-gray-300">Inicio</button>
-        <button className="mr-5 hover:text-gray-300">Beneficios</button>
-        <button className="mr-5 hover:text-gray-300">Productos</button>
-        <button className="mr-5 hover:text-gray-300">Servicios</button>
-        <button className="mr-5 hover:text-gray-300">Nosotros</button>
-        <button className="mr-5 hover:text-gray-300">Contacto</button>
+        <button className="mr-5 text-yellow-600 hover:text-gray-50">Inicio</button>
+        <button className="mr-5 hover:text-gray-50">Beneficios</button>
+        <button className="mr-5 hover:text-gray-50">Productos</button>
+        <button className="mr-5 hover:text-gray-50">Servicios</button>
+        <button className="mr-5 hover:text-gray-50">Nosotros</button>
+        <button className="mr-5 hover:text-gray-50">Contacto</button>
+       
+       
+      
       </nav>
+      
+      
+    
+      
     </header>
   );
 };

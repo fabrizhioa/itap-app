@@ -1,104 +1,18 @@
 import React from "react";
-import { AiOutlineWifi } from "react-icons/ai";
-import { BsPersonCheck } from "react-icons/bs";
-import { BsShieldShaded } from "react-icons/bs";
-import { VscDeviceMobile } from "react-icons/vsc";
+
 const Content2 = () => {
   return (
-    <section className="py-20  bg-gray-50  bg-fixed overflow-y-auto  ">
-      <div className="container max-w-6xl mx-auto">
-        <div className="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-8 sm:px-8 xl:px-0">
-          <div className="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 hover:bg-gray-100  space-y-4 overflow-hidden bg-gray-300 sm:rounded-xl">
-            <div className="p-3 text-white bg-blue-500 rounded-full">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 "
-                viewBox="0 0 15 15"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                fill="none"
-                trokelinecap="round"
-                strokeLinejoin="round"
-              >
-                <BsPersonCheck />
-              </svg>
+    <section className="flex items-center justify-start py-10 text-white bg-Hero-new bg-cover bg-fixed bg-white sm:py-16 md:py-24 lg:py-32">
+      <div className="relative max-w-3xl px-10 text-center text-white auto lg:px-0">
+        <div className="flex flex-col w-full md:flex-row">
+          <div className="max-w-6xl px-4  mx-auto border-solid justify-start lg:px-12">
+            <div className="flex flex-col items-start leading-7 text-gray-900 border-0 border-gray-200 lg:items-center lg:flex-row">
+              <div className="box-border flex-1 text-center border-solid sm:text-left"></div>
             </div>
-            <h4 className="text-xl font-medium text-gray-900">
-              Recibe Listo para Usar
-            </h4>
-            <p className="text-base text-center text-gray-900">
-              Recibe todo listo para usar desde el primer día.
-            </p>
-          </div>
-
-          <div className="flex flex-col  items-center justify-between col-span-4 px-8   py-12 space-y-4 bg-gray-300 sm:rounded-xl hover:bg-gray-200">
-            <div className="p-3 text-white bg-blue-500 rounded-full">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 "
-                viewBox="0 0 15 15"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <AiOutlineWifi />
-              </svg>
-            </div>
-            <h4 className="text-xl font-medium text-gray-900">Tecnología NFC</h4>
-            <p className="text-base text-center text-gray-900">
-              Nuestra tecnología es la manera mas avanzada de compartir
-              información.
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-between col-span-4 hover:bg-gray-200 px-8 py-12 space-y-4 bg-gray-300  sm:rounded-xl">
-            <div className="p-3 text-white bg-blue-500 rounded-full">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 "
-                viewBox="0 0 15 16"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <BsShieldShaded />
-              </svg>
-            </div>
-            <h4 className="text-xl font-medium text-gray-700">
-              Rapido, Facil y seguro
-            </h4>
-            <p className="text-base text-center text-gray-900">
-              Comparte en un Segundo la información que quieras, LA seguridad de
-              Tus datos es lo mas importante para nosotros.
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-between col-span-4 hover:bg-gray-200 px-8 py-12 space-y-4 bg-gray-300  sm:rounded-xl">
-            <div className="p-3 text-white bg-blue-500 rounded-full">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 "
-                viewBox="0 0 16 15"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <VscDeviceMobile />
-              </svg>
-            </div>
-            <h4 className="text-xl font-medium text-gray-900">Compatibilidad</h4>
-            <p className="text-base text-center text-gray-900">
-              Con Nuestras dos presentaciones todos tus clientes serán
-              compatibles.
-            </p>
           </div>
         </div>
+
+        <div className="my-24  p-1 lg:my-52"></div>
       </div>
     </section>
   );
