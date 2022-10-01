@@ -34,7 +34,7 @@ const Footer = () => {
 
       <div class="bg-neutral-300">
         <div class="container mx-auto py-6 px-2 justify-center flex flex-wrap flex-col sm:flex-row">
-          <p class="text-gray-500 text-sm text-center sm:text-left">
+          <p class="text-gray-600 text-md text-center sm:text-left">
             ©2020 derechos reservados iTAP MEXICO
           </p>
         </div>
