@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Content = () => {
   return (
     <section className="flex items-center justify-start py-5 text-white lg:bg-hero-max bg-hero-max bg-cover bg-center   bg-white sm:py-16 md:py-24 lg:py-5">
@@ -12,7 +11,6 @@ const Content = () => {
             </div>
           </div>
         </div>
-
         <div className=" my-48  p-1 lg:my-72"></div>
 
       </div>

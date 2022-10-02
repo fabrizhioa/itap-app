@@ -7,12 +7,13 @@ import louck9 from "./img/louck9.jpg";
 import louck8 from "./img/louck8.jpg";
 import louck7 from "./img/louck7.jpg"
 import code0 from "./img/code0.png"
+import louck0 from "./img/louck0.jpg"
 
 /* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 export default {
   img0: code0,  
   img1: louck1,
-  
+  img10: louck0,
   img4: louck4,
   img5: louck5,
   img6: louck9,
