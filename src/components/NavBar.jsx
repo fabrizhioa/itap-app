@@ -12,14 +12,14 @@ const NavBar = () => {
        
       </div>
       
-      <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center   text-black   font-['Helvetica'] justify-center">
+      <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center    text-black   font-['Helvetica'] justify-center">
         
-        <button className="mr-5 text-yellow-600 hover:text-gray-50">Inicio</button>
-        <button className="mr-5 hover:text-gray-50">Beneficios</button>
-        <button className="mr-5 hover:text-gray-50">Productos</button>
-        <button className="mr-5 hover:text-gray-50">Servicios</button>
-        <button className="mr-5 hover:text-gray-50">Nosotros</button>
-        <button className="mr-5 hover:text-gray-50">Contacto</button>
+        <button className="mr-5 text-yellow-600 tracking-wider hover:text-gray-50">Inicio</button>
+        <button className="mr-5 hover:text-gray-50 tracking-wider">Beneficios</button>
+        <button className="mr-5 hover:text-gray-50 tracking-wider">Productos</button>
+        <button className="mr-5 hover:text-gray-50 tracking-wider">Servicios</button>
+        <button className="mr-5 hover:text-gray-50 tracking-wider">Nosotros</button>
+        <button className="mr-5 hover:text-gray-50 tracking-wider">Contacto</button>
        
        
       
