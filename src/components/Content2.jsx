@@ -51,8 +51,9 @@ const Content2 = () => {
           <h1 className="text-lg font-semibold tracking-wider ">
             Compatibilidad{" "}
           </h1>{" "}
-          <p className="text-sm">
-            Recibe todo listo para usar desde el primer día
+          
+          <p className="text-sm  mt-2 text-gray-300">
+          Con Nuestras dos presentaciones todos
           </p>
         </div>
       </div>
