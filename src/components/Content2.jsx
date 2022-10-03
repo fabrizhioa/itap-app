@@ -1,5 +1,8 @@
 import React from "react";
-import { AiOutlineDropbox } from "react-icons/ai";
+import { AiOutlineDropbox,AiOutlineWifi } from "react-icons/ai";
+import { BsShieldCheck } from "react-icons/bs";
+import { VscDeviceMobile } from "react-icons/vsc";
+
 const rowClassName =
   "flex-auto h-full border tr  p-14 font-sans  bg-black bg-opacity-50 to-transparent";
 
@@ -16,18 +19,22 @@ const Content2 = () => {
           </p>
         </div>
         <div className={rowClassName}>
+        <AiOutlineWifi/>
           <h1 className="text-lg font-semibold tracking-wider">Tecnología NFC</h1>{" "}
           <p className="text-sm tracking-wider">
             Recibe todo listo para usar desde el primer día
           </p>
         </div>
         <div className={rowClassName}>
+        <BsShieldCheck/>
           <h1 className="text-lg font-semibold tracking-wider ">Rapido, Facil y seguro</h1>{" "}
           <p className="text-sm ">
             Recibe todo listo para usar desde el primer día
           </p>
         </div>
+      
         <div className={rowClassName}>
+        <VscDeviceMobile/>
           <h1 className="text-lg font-semibold tracking-wider ">Compatibilidad </h1>{" "}
           <p className="text-sm">
             Recibe todo listo para usar desde el primer día
