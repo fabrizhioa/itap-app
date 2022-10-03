@@ -4,14 +4,14 @@ import { BsShieldCheck } from "react-icons/bs";
 import { VscDeviceMobile } from "react-icons/vsc";
 
 const rowClassName =
-  "flex-auto h-full border tr  p-14 font-sans   bg-black bg-opacity-50 to-transparent";
+  "flex-auto w-full  border tr px-20 py-52 font-sans  bg-black bg-opacity-50 to-transparent ";
 
 const Content2 = () => {
   return (
-    <section className="text-white bg-Hero-new   bg-cover bg-fixed">
-      <div className="h-96 flex  ">
+    <section className="text-white bg-Hero-new bg-cover bg-fixed">
+      <div className="w-full  flex  ">
         <div className={rowClassName}>
-          <svg className="w-14 h-14  fill-current" viewBox="0 0 15 16">
+          <svg className="w-14 h-14    fill-current" viewBox="0 0 15 16">
             <AiOutlineDropbox />
           </svg>
           <h1 className="text-lg font-bold tracking-wider  ">Recibe Listo </h1>{" "}
@@ -51,9 +51,8 @@ const Content2 = () => {
           <h1 className="text-lg font-semibold tracking-wider ">
             Compatibilidad{" "}
           </h1>{" "}
-          
           <p className="text-sm  mt-2 text-gray-300">
-          Con Nuestras dos presentaciones todos
+            Con Nuestras dos presentaciones todos
           </p>
         </div>
       </div>
