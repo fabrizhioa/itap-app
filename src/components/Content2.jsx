@@ -4,7 +4,7 @@ import { BsShieldCheck } from "react-icons/bs";
 import { VscDeviceMobile } from "react-icons/vsc";
 
 const rowClassName =
-  "flex-auto w-full border border-white border-opacity-30  px-14 py-48 font-sans  bg-black bg-opacity-50 to-transparent ";
+  "flex-auto w-full border border-white border-opacity-60  px-14 py-48 font-sans  bg-black bg-opacity-50 to-transparent ";
 
 const Content2 = () => {
   return (
