@@ -17,9 +17,9 @@ const Content2 = () => {
           >
             <AiOutlineDropbox />
           </svg>
-          <h1 className="text-lg font-bold tracking-wider pt-1 lg:pt-0 ">Recibe Listo </h1>{" "}
-          <h2 className="text-lg font-bold tracking-wider pt-1 lg:pt-0 "> para Usar </h2>{" "}
-          <p className="text-sm mt-2 lg:mt-1 text-gray-300 ">
+          <h1 className="text-2xl lg:text-lg font-semibold tracking-wider pt-1 lg:pt-0 ">Recibe Listo </h1>{" "}
+          <h2 className="text-2xl lg:text-lg font-semibold tracking-wider pt-1 lg:pt-0 "> para Usar </h2>{" "}
+          <p className="text-lg lg:text-sm mt-2 lg:mt-1 text-gray-300 ">
             Recibe todo listo para usar desde el primer día
           </p>
         </div>
@@ -31,9 +31,9 @@ const Content2 = () => {
           >
             <AiOutlineWifi />
           </svg>
-          <h1 className="text-lg font-semibold tracking-wider  lg:pt-0 ">Tecnología</h1>{" "}
-          <h2 className="text-lg font-bold tracking-wider pt-1 lg:pt-0  "> NFC </h2>{" "}
-          <p className="text-sm mt-2 lg:mt-1 text-gray-300 whitespace-pre-line tracking-wider  ">
+          <h1 className="text-2xl lg:text-lg font-semibold tracking-wider  lg:pt-0 ">Tecnología</h1>{" "}
+          <h2 className="text-2xl lg:text-lg font-semibold tracking-wider pt-1 lg:pt-0  "> NFC </h2>{" "}
+          <p className="text-lg lg:text-sm mt-2 lg:mt-1 text-gray-300 whitespace-pre-line tracking-wider  ">
             Nuestra tecnología es la manera mas avanzada de compartir
             información
           </p>
@@ -46,12 +46,12 @@ const Content2 = () => {
           >
             <BsShieldCheck />
           </svg>
-          <h1 className="text-lg font-semibold tracking-wider pt-1 lg:pt-0">Rapido</h1>{" "}
-          <h2 className="text-lg font-bold tracking-wider pt-1 lg:pt-0   ">
+          <h1 className="text-2xl lg:text-lg font-semibold tracking-wider pt-1 lg:pt-0">Rapido</h1>{" "}
+          <h2 className="text-2xl lg:text-lg font-semibold tracking-wider pt-1 lg:pt-0   ">
             {" "}
             Facil y seguro{" "}
           </h2>
-          <p className="text-sm mt-2  lg:mt-1 text-gray-300">
+          <p className="text-lg lg:text-sm mt-3  lg:mt-1 text-gray-300">
             Comparte en un Segundo la información que quieras, La Seguridad de
             tus datos s es lo mas importante para nosotros
           </p>
@@ -61,10 +61,10 @@ const Content2 = () => {
           <svg className="w-16 h-16 mt-1  fill-current" viewBox="0 0 15 16">
             <VscDeviceMobile />
           </svg>
-          <h1 className="text-lg font-semibold tracking-wider pt-2 lg:pt-0  ">
+          <h1 className="text-2xl lg:text-lg font-semibold tracking-wider pt-2 lg:pt-0  ">
             Compatibilidad{" "}
           </h1>{" "}
-          <p className="text-sm  mt-2 lg:mt-1 text-gray-300">
+          <p className="text-lg lg:text-sm   mt-2 lg:mt-1 text-gray-300">
             Con Nuestras dos presentaciones todos tus clientes serán compatibles
           </p>
         </div>

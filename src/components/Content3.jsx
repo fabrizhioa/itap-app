@@ -2,7 +2,7 @@ import React from "react";
 
 const Content3 = () => {
   return (
-    <div className="text-white bg-hero-pepper  lg:p-44 bg-cover bg-center  ">
+    <div className="text-white bg-hero-pepper p-1  lg:p-44 bg-cover bg-center  ">
       <div className="h-96 flex"></div>
       <div className="mt-20"></div>
       <a
