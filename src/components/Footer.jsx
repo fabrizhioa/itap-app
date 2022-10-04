@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600 body-font  bg-neutral-200">
-      <div className="border-t border-gray-200 bg-neutral-800">
+    <footer className="text-gray-600 body-font  bg-[#ececec]">
+      <div className="border-t border-gray-200 bg-[#2d2d2d]">
         <div className="container  py-32 flex flex-wrap justify-center space-x-4 mx-auto items-center">
           <label for="email" class="leading-7 text-2xl text-gray-300">
             Subscribete!
@@ -45,8 +45,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-neutral-300">
-        <div className="container mx-auto py-6 px-2 justify-center flex flex-wrap flex-col sm:flex-row">
+      <div className="bg-[#e3e3e3]">
+        <div className="container mx-auto py-5 px-2 justify-center flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-600 text-md text-center sm:text-left">
             ©2020 derechos reservados iTAP MEXICO
           </p>

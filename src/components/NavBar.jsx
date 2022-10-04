@@ -2,7 +2,7 @@ import React from "react";
 import imagenes from "../assets/imagenes";
 const NavBar = () => {
   return (
-    <header className="text-gray-600 body-font sticky border-b-2 border-neutral-600  h-32 top-0 z-50 bg-neutral-200 drop-shadow-md">
+    <header className="text-gray-600 body-font sticky border-b-2 border-neutral-600  h-32 top-0 z-50 bg-[#dfdfdf] drop-shadow-md">
       <div className="container mx-auto flex p-3 flex-wrap justify-center flex-col md:flex-row items-center">
       <img alt="hero" className="w-52 h-full "  src={imagenes.img4} />
       
