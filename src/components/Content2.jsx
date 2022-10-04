@@ -12,7 +12,7 @@ const Content2 = () => {
       <div className="w-full ms:flex-col md:flex-auto  lg:flex  ">
         <div className={rowClassName}>
           <svg
-            className="w-16 h-16  mt-5 lg:mt-32  fill-current"
+            className="w-16 h-16  mt-1 lg:mt-32  fill-current"
             viewBox="0 0 15 16"
           >
             <AiOutlineDropbox />
@@ -26,7 +26,7 @@ const Content2 = () => {
 
         <div className={rowClassName}>
           <svg
-            className="w-16 h-16  mt-5 lg:mt-0 fill-current "
+            className="w-16 h-16  mt-1 lg:mt-0 fill-current "
             viewBox="0 0 15 16"
           >
             <AiOutlineWifi />
@@ -41,7 +41,7 @@ const Content2 = () => {
 
         <div className={rowClassName}>
           <svg
-            className="w-16 h-16  mt-2 lg:mt-32 fill-current"
+            className="w-16 h-16  mt-1 lg:mt-32 fill-current"
             viewBox="0 0 15 16"
           >
             <BsShieldCheck />
@@ -58,7 +58,7 @@ const Content2 = () => {
         </div>
 
         <div className={rowClassName}>
-          <svg className="w-16 h-16   fill-current" viewBox="0 0 15 16">
+          <svg className="w-16 h-16 mt-1  fill-current" viewBox="0 0 15 16">
             <VscDeviceMobile />
           </svg>
           <h1 className="text-lg font-semibold tracking-wider pt-2 lg:pt-0  ">
