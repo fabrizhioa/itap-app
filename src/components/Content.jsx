@@ -5,13 +5,13 @@ const Content = () => {
   return (
     <section className="text-white bg-hero-max  bg-cover bg-center lg:bg-center  ">
       <div class="max-w-full  py-1 lg:py-10 lg:px-14  ">
-        <p class="mt-2 text-4xl font-semibold text-end lg:text-start px-4 lg:px-20   text-gray-50  sm:tracking-tight lg:text-6xl">
+        <p class="mt-2 text-sx font-semibold text-end lg:text-start px-4 lg:px-20   text-gray-50  sm:tracking-tight lg:text-6xl">
           Una Nueva
         </p>
-        <p class="mt-2 text-4xl font-semibold text-end px-4  lg:text-start lg:px-20   text-gray-50  sm:tracking-tight lg:text-6xl">
+        <p class="mt-2 text-sx font-semibold text-end px-4  lg:text-start lg:px-20   text-gray-50  sm:tracking-tight lg:text-6xl">
           Manera De
         </p>
-        <p class="mt-2 text-4xl font-semibold text-end px-4  lg:text-start lg:px-20  text-gray-50  sm:tracking-tight lg:text-6xl">
+        <p class="mt-2 text-sx font-semibold text-end px-4  lg:text-start lg:px-20  text-gray-50  sm:tracking-tight lg:text-6xl">
           Compartir.
         </p>
         <div className="px-9 mt-2 lg:px-36 justify-end lg:justify-start  lg:mt-6 flex">
