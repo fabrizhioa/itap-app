@@ -19,13 +19,13 @@ const Footer = () => {
 
           <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-center">
           
-            <button class="text-gray-700 bg-[#e9d7a9] py-3 px-4 focus:outline-none hover:bg-gray-600  text-sm">
+            <button class="text-gray-700 bg-[#e9d7a9] py-3 px-4 focus:outline-none hover:bg-gray-50  text-sm">
               Subscribete
             </button>
           </div>
         </div>
       </div>
-      <div class="container p-6 text-gray-800">
+      <div class="container p-6 cursor-pointer text-gray-800">
         <div class="grid lg:grid-cols-2 text-center gap-1">
           <div class="mb-6 md:mb-0">
             <h5 class="font-medium mb-2 text-center uppercase">Categorias</h5>
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
 
           <div class="mb-6 md:mb-0">
-            <h5 class="font-medium mb-2  uppercase">Categorias</h5>
+            <h5 class="font-medium mb-2 cursor-pointer uppercase">Categorias</h5>
 
             <nav class="list-none mb-10">
               <li>
