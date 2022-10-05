@@ -4,7 +4,7 @@ import React from "react";
 const Content = () => {
   return (
     <section className="text-white bg-hero-max  bg-cover bg-center lg:bg-center  ">
-      <div class="max-w-6xl  py-1 lg:py-10 lg:px-14  ">
+      <div class="max-w-full  py-1 lg:py-10 lg:px-14  ">
         <p class="mt-2 text-4xl font-semibold text-end lg:text-start px-4 lg:px-20   text-gray-50  sm:tracking-tight lg:text-6xl">
           Una Nueva
         </p>
