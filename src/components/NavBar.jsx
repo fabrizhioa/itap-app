@@ -5,11 +5,11 @@ import imagenes from "../assets/imagenes";
 const NavBarContent = () => {
   return (
     <>
-      <ul class="flex flex-col p-2 mt-4 lg:bg-[#dfdfdf] bg-gray-500 md:bg-[#dfdfdf]  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul class="flex flex-col p-2 mt-4 lg:bg-[#dfdfdf] bg-gray-500 md:bg-[#dfdfdf] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
           <button
             href="#"
-            class="block py-2 pr-4  pl-3 text-white bg-blue-700  md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+            class="block py-2 pr-4  pl-3 text-white bg-black-700  md:bg-transparent md:text-black md:p-0 dark:text-white"
             aria-current="page"
           >
             Inicio
@@ -64,7 +64,7 @@ const NavBar = () => {
   const [open, toggleOpen] = useState(false);
 
   return (
-    <header className="text-gray-600 body-font sticky   border-transparent md:border-transparent lg:border-neutral-600 h-30 md:h-flex lg:h-32 lg:flex  flex-col top-0 z-50 bg-[#dfdfdf] drop-shadow-md">
+    <header className="text-gray-600 body-font sticky   border-transparent md:border-transparent lg:border-neutral-600 h-30 md:h-flex lg:h-36 lg:flex  flex-col top-0 z-50 bg-[#dfdfdf] drop-shadow-md">
       <div className="container mx-auto flex p-1 flex-wrap justify-center pt-4 flex-col md:flex-row items-center">
         <img
           alt="hero"
