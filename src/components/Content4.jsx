@@ -10,8 +10,8 @@ const Content4 = () => {
           Como comprar{" "}
         </p>
       </div>
-      <div className="container items-center max-w-6xl px-5 mx-auto   text-center"></div>
-      <div className=" max-w-full px-1 mx-auto mt- text-center">
+      <div className="container items-center max-w-full px-5 mx-auto   text-center"></div>
+      <div className=" max-w-full  lg:px-80 px-0 mt- text-center">
         <img alt="hero" src={imagenes.img5} />
         
       </div>

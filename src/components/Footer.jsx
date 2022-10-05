@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
       </div>
       <div class="container p-6 cursor-pointer text-gray-800">
-        <div class="grid lg:grid-cols-2 text-center gap-1">
+        <div class="grid lg:grid-cols-2 grid-cols-2  text-center gap-1">
           <div class="mb-6 md:mb-0">
             <h5 class="font-medium mb-2 text-center uppercase">Categorias</h5>
 
@@ -59,10 +59,10 @@ const Footer = () => {
                 <a class="text-gray-600 hover:text-gray-800">METODOS DE PAGO</a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-gray-800">FAQ</a>
+                <a class="text-gray-600 hover:text-gray-800">STORE POLICY</a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-gray-800">STORE POLICY</a>
+                <a class="text-gray-600 hover:text-gray-800">FAQ</a>
               </li>
             </nav>
           </div>
