@@ -5,11 +5,11 @@ import imagenes from "../assets/imagenes";
 const NavBarContent = () => {
   return (
     <>
-      <ul class="flex flex-col p-2  mt-4 lg:bg-[#dfdfdf] bg-gray-500 md:bg-[#dfdfdf] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul className="flex flex-col p-2  mt-4 lg:bg-[#dfdfdf]  bg-gray-700 md:bg-[#dfdfdf] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
           <button
             href="#"
-            class="block py-2 pr-4  text-base font-extralight pl-3 text-white bg-black-700  md:bg-transparent md:text-black md:p-0 md:hover:text-gray-50 md dark:text-white"
+            class="block py-2 pr-4 pl-3  text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             aria-current="page"
           >
             Inicio
@@ -18,7 +18,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            class="block py-2 pr-4 pl-3  text-base font-extralight text-gray-700  hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            class="block py-2 pr-4 pl-3  text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Beneficios
           </button>
@@ -26,7 +26,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            class="block py-2 pr-4 pl-3 text-base font-extralight text-gray-700  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3 text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Productos
           </button>
@@ -34,7 +34,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            class="block py-2 pr-4 pl-3 text-base text-gray-700 font-extralight rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3 text-lg lg:text-base text-gray-100 lg:text-gray-900 font-extralight rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Servicios
           </button>
@@ -42,7 +42,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            class="block py-2 pr-4 pl-3 text-base text-gray-700 font-extralight rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3 text-lg text-gray-100 lg:text-base lg:text-gray-900  font-extralight rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Nosotros
           </button>
@@ -50,7 +50,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            class="block py-2 pr-4 pl-3 text-base text-gray-700  font-extralight rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3 text-lg text-gray-100 lg:text-base lg:text-gray-900  font-extralight rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Contacto
           </button>
@@ -73,17 +73,18 @@ const NavBar = () => {
         />
       </div>
 
-      <nav class="  px-2 sm:px-4 py-0 rounded dark:bg-gray-900">
-        <div class="container flex flex-wrap justify-between md:justify-center  lg:justify-center items-center mx-auto">
+      <nav className="  px-2 sm:px-4 py-2 rounded dark:bg-gray-900">
+      
+        <div className="container flex flex-wrap justify-between md:justify-center  lg:justify-center items-center mx-auto">
           <button
             onClick={() => toggleOpen(!open)}
             data-collapse-toggle="navbar-default"
             type="button"
-            class="inline-flex items-center p-3 ml-3 text-sm text-gray-500  md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            class="inline-flex items-center p-2 bg-gray-800 ml-3 text-sm text-gray-50  md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
-            <span class="sr-only">Open main menu</span>
+            <span className="sr-only">Open main menu</span>
             <svg
               class="w-8 h-8 "
               aria-hidden="true"
@@ -100,12 +101,12 @@ const NavBar = () => {
           </button>
 
           {open && (
-            <div class="w-full  md:hidden" id="navbar-default">
+            <div className="w-full  md:hidden" id="navbar-default">
               <NavBarContent />
             </div>
           )}
 
-          <div class="hidden md:block  md:w-auto" id="navbar-default">
+          <div className="hidden md:block  md:w-auto" id="navbar-default">
             <NavBarContent />
           </div>
         </div>

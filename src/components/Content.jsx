@@ -3,7 +3,7 @@ import React from "react";
 
 const Content = () => {
   return (
-    <section className="text-white bg-hero-max  bg-cover bg-center  ">
+    <section className="text-white bg-hero-max  bg-cover bg-center lg:bg-scroll  ">
       <div class="max-w-full mx-auto py-1 lg:py-10 lg:px-32  ">
         <p class="mt-2 text-sx font-semibold lg:text-start text-end   px-4 lg:px-20   text-gray-50  sm:tracking-tight lg:text-6xl">
           Una Nueva
