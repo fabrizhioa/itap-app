@@ -14,7 +14,7 @@ const Content = () => {
         <p class="mt-2 text-sx font-semibold lg:text-start text-end px-4  lg:px-20  text-gray-50  sm:tracking-tight lg:text-6xl">
           Compartir.
         </p>
-        <div className="px-1 mt-2 lg:px-36 lg:justify-start justify-end lg:mt-6 flex">
+        <div className="px-2 mt-2 lg:px-36 lg:justify-start justify-end lg:mt-6 flex">
           <button href="#_" class="relative px-0 lg:px-4 lg:py-4 py-1 font-medium text-white group">
             <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-gray-400 group-hover:bg-gray-800 group-hover:skew-x-12"></span>
             <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-gray-700 group-hover:bg-gray-500 group-hover:-skew-x-12"></span>
