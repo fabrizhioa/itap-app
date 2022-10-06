@@ -14,10 +14,8 @@ const Hero = () => {
       <div className=" w-3/3 lg:w-1/3"></div>
       <div
         data-aos="zoom-in "
-        data-aos-duration="3000"
+        data-aos-duration="2000"
         data-aos-easing="ease-in-out"
-        data-aos-delay="50"
-       
       >
         <div className=" relative  max-w-9xl  py-10 lg:py-0 mx-auto  ">
           <img alt="hero" className="" src={imagenes.img7} />

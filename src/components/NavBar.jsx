@@ -9,7 +9,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            class="block py-2 pr-4 pl-3  text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3  text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             aria-current="page"
           >
             Inicio
@@ -18,7 +18,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            class="block py-2 pr-4 pl-3  text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3  text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Beneficios
           </button>
@@ -80,22 +80,22 @@ const NavBar = () => {
             onClick={() => toggleOpen(!open)}
             data-collapse-toggle="navbar-default"
             type="button"
-            class="inline-flex items-center p-2 bg-gray-800 ml-3 text-sm text-gray-50  md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 bg-gray-800 ml-3 text-sm text-gray-50  md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
             <span className="sr-only">Open main menu</span>
             <svg
-              class="w-8 h-8 "
+              className="w-8 h-8 "
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </button>
