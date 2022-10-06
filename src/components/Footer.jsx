@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="text-gray-600 body-font  bg-[#ececec]">
       <div className="border-t border-gray-200 bg-[#2d2d2d]">
       
-        <div className="container  py-32 flex flex-wrap justify-center space-x-4 mx-auto items-center">
+        <div className="container  py-32 flex flex-wrap justify-center lg:space-x-4 space-x lg:space-y-0 space-y-3  mx-auto items-center">
           <label for="email" class="leading-7 text-2xl text-white">
             Subscribete!
           </label>
@@ -19,7 +19,7 @@ const Footer = () => {
 
           <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-center">
           
-            <button class="text-gray-700 bg-[#e9d7a9] py-3 px-4 focus:outline-none hover:bg-gray-50  text-sm">
+            <button class="text-gray-700  bg-[#e9d7a9] py-3 px-4 focus:outline-none hover:bg-gray-50  text-sm">
               Subscribete
             </button>
           </div>
