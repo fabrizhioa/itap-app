@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="text-gray-600 body-font  bg-[#ececec]">
       <div className="border-t border-gray-200 bg-[#2d2d2d]">
       
-        <div className="container  py-32 flex flex-wrap justify-center lg:space-x-4 space-x lg:space-y-0 space-y-3  mx-auto items-center">
+        <div className="container  py-32 flex flex-wrap justify-center lg:space-x-4 space-x-2 lg:space-y-0 space-y-3  mx-auto items-center">
           <label htmlFor="email" className="leading-7 text-2xl text-white">
             Subscribete!
           </label>
