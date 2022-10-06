@@ -8,7 +8,7 @@ const Footer = () => {
           <label htmlFor="email" className="leading-7 text-2xl text-white">
             Subscribete!
           </label>
-          
+
           <input
             type="email"
             id="email"
@@ -17,36 +17,48 @@ const Footer = () => {
           />
 
           <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-center">
-          
             <button className="text-gray-700  bg-[#e9d7a9] py-3 px-4 focus:outline-none hover:bg-gray-50  text-sm">
               Subscribete
             </button>
           </div>
         </div>
       </div>
+      
       <div className="container p-6 cursor-pointer text-gray-800">
         <div className="grid lg:grid-cols-2 grid-cols-2  text-center gap-1">
           <div className="mb-6 md:mb-0">
-            <h5 className="font-medium mb-2 text-center uppercase">Categorias</h5>
+            <h5 className="font-medium mb-2 text-center uppercase">
+              Categorias
+            </h5>
 
             <nav className="list-none mb-10">
               <li>
-                <button className="text-gray-600 hover:text-gray-800">INICIO</button>
+                <button className="text-gray-600 hover:text-gray-800">
+                  INICIO
+                </button>
               </li>
               <li>
-                <button className="text-gray-600 hover:text-gray-800">BENEFICIOS</button>
+                <button className="text-gray-600 hover:text-gray-800">
+                  BENEFICIOS
+                </button>
               </li>
               <li>
-                <button className="text-gray-600 hover:text-gray-800">SERVICIOS</button>
+                <button className="text-gray-600 hover:text-gray-800">
+                  SERVICIOS
+                </button>
               </li>
               <li>
-                <button className="text-gray-600 hover:text-gray-800">PRODUCTOS</button>
+                <button className="text-gray-600 hover:text-gray-800">
+                  PRODUCTOS
+                </button>
               </li>
             </nav>
           </div>
 
           <div className="mb-6 md:mb-0">
-            <h5 className="font-medium mb-2 cursor-pointer uppercase">Categorias</h5>
+            <h5 className="font-medium mb-2 cursor-pointer uppercase">
+              Categorias
+            </h5>
 
             <nav className="list-none mb-10">
               <li>
@@ -55,13 +67,19 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button className="text-gray-600 hover:text-gray-800">METODOS DE PAGO</button>
+                <button className="text-gray-600 hover:text-gray-800">
+                  METODOS DE PAGO
+                </button>
               </li>
               <li>
-                <button className="text-gray-600 hover:text-gray-800">STORE POLICY</button>
+                <button className="text-gray-600 hover:text-gray-800">
+                  STORE POLICY
+                </button>
               </li>
               <li>
-                <button className="text-gray-600 hover:text-gray-800">FAQ</button>
+                <button className="text-gray-600 hover:text-gray-800">
+                  FAQ
+                </button>
               </li>
             </nav>
           </div>
