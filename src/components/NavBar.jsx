@@ -6,7 +6,7 @@ import imagenes from "../assets/imagenes";
 const NavBarContent = () => {
   return (
     <>
-      <ul className="flex flex-col p-2  mt-4 lg:bg-[#dfdfdf]  bg-gray-700 md:bg-[#dfdfdf] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul className="flex flex-col p-2  mt-4 lg:bg-[#dfdfdf]   bg-gray-700 md:bg-[#dfdfdf]  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
           <button
             href="#"
@@ -66,12 +66,12 @@ const NavBar = () => {
   const [open, toggleOpen] = useState(false);
 
   return (
-    <header className="text-gray-600 body-font sticky  border-transparent md:border-transparent lg:border-neutral-600 h-30 md:h-flex lg:h-36 lg:flex  flex-col top-0 z-50 bg-[#dfdfdf] drop-shadow-md">
-      <div className="container mx-auto flex p-1 flex-wrap justify-around  pt-4 flex-col md:flex-row items-center">
-        <span className="w-20 md:w-20 pt-2 lg:w-52 h-full " />
+    <header className="text-gray-600 body-font sticky  border-transparent md:border-transparent lg:border-neutral-600 h-30  lg:h-36 lg:flex  flex-col top-0 z-50 bg-[#dfdfdf] drop-shadow-md">
+      <div className="container mx-auto flex p-1 flex-wrap justify-around  pt-4 flex-col lg:flex-row items-center">
+        <span className="w-20  pt-2 lg:w-52 h-full " />
         <img
           alt="hero"
-          className="w-20 md:w-20 pt-2 lg:w-52 h-full "
+          className="w-32  pt-2 lg:w-52 h-full "
           src={imagenes.img4}
         />
 
@@ -105,12 +105,12 @@ const NavBar = () => {
       </div>
 
       <nav className="  px-2 sm:px-4 py-2 rounded dark:bg-gray-900">
-        <div className="container flex flex-wrap justify-between md:justify-center lg:justify-center items-center mx-auto">
+        <div className="container flex flex-wrap justify-between  lg:justify-center items-center mx-auto">
           <button
             onClick={() => toggleOpen(!open)}
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 bg-gray-800 ml-3 text-sm text-gray-50  md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 bg-gray-800 ml-3 text-sm text-gray-50  lg:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
@@ -134,7 +134,7 @@ const NavBar = () => {
             onClick={() => toggleOpen(!open)}
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 mx-2  bg-gray-800 ml-3 text-sm text-gray-50  md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 mx-2  bg-gray-800 ml-3 text-sm text-gray-50  lg:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
@@ -156,7 +156,7 @@ const NavBar = () => {
             </div>
           )}
 
-          <div className="hidden md:block  md:w-auto" id="navbar-default">
+          <div className="hidden lg:block  md:w-auto" id="navbar-default">
             <NavBarContent />
           </div>
         </div>
