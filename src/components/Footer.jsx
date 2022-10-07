@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600 body-font  bg-[#ececec]">
+    <footer className="text-gray-600 body-font bg-[#ececec]">
       <div className="border-t border-gray-200 bg-[#2d2d2d]">
         <div className="container  py-28 flex flex-wrap justify-center lg:space-x-3 space-x-2 lg:space-y-0 space-y-3  mx-auto items-center">
           <label htmlFor="email" className="leading-7 text-2xl text-white">
@@ -23,9 +23,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
-      <div className="container p-6 cursor-pointer text-gray-800">
-        <div className="grid lg:grid-cols-2 grid-cols-2  text-center gap-1">
+      <div className="pt-6 cursor-pointer text-gray-800 flex justify-center items-center w-full">
+        <div className="grid lg:grid-cols-2 grid-cols-2 text-center gap-1">
           <div className="mb-6 md:mb-0">
             <h5 className="font-medium mb-2 text-center uppercase">
               Categorias
@@ -54,7 +53,6 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-
           <div className="mb-6 md:mb-0">
             <h5 className="font-medium mb-2 cursor-pointer uppercase">
               Categorias
@@ -85,7 +83,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       <div className="bg-[#e3e3e3]">
         <div className="container mx-auto py-6 px-2 justify-center flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-600 text-md text-center sm:text-left">
