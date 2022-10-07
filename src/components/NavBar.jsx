@@ -130,8 +130,7 @@ const NavBar = () => {
             </svg>
           </button>
 
-          <button
-            onClick={() => toggleOpen(!open)}
+          <button 
             data-collapse-toggle="navbar-default"
             type="button"
             className="inline-flex items-center p-2 mx-2  bg-gray-800 ml-3 text-sm text-gray-50  lg:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"

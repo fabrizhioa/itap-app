@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600 body-font bg-[#ececec]">
+    <footer className="text-gray-600 body-font   bg-[#ececec]">
       <div className="border-t border-gray-200 bg-[#2d2d2d]">
         <div className="container  py-28 flex flex-wrap justify-center lg:space-x-3 space-x-2 lg:space-y-0 space-y-3  mx-auto items-center">
           <label htmlFor="email" className="leading-7 text-2xl text-white">
@@ -24,13 +24,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="pt-6 cursor-pointer text-gray-800 flex justify-center  items-center w-full">
-        <div className="grid lg:grid-cols-2 grid-cols-2 text-center gap-1">
-          <div className="mb-6 md:mb-0">
-            <h5 className="font-medium mb-2 text-center uppercase">
+        <div className="grid lg:grid-cols-2 grid-cols-2 text-center lg:gap-32 gap-1">
+          <div className="mb-6 md:mb-0 ">
+            <h5 className="font-medium mb-2  text-center uppercase">
               Categorias
             </h5>
 
-            <nav className="list-none mb-10">
+            <nav className="list-none mb-10 ">
               <li>
                 <button className="text-gray-600 hover:text-gray-800">
                   INICIO
@@ -53,12 +53,17 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="mb-6 md:mb-0 px-32">
-            <h5 className="font-medium mb-2 cursor-pointer uppercase">
+          <div className="mb-6 md:mb-0 ">
+            <h5 className="font-medium mb-2 text-center cursor-pointer uppercase">
               Categorias
             </h5>
             
             <nav className="list-none mb-10">
+              <li>
+                <button className="text-gray-600 hover:text-gray-800">
+              ENVIOS Y DEVOLUCIONES
+                </button>
+              </li>
               <li>
                 <button className="text-gray-600 hover:text-gray-800">
                 METODOS DE PAGO
@@ -66,17 +71,12 @@ const Footer = () => {
               </li>
               <li>
                 <button className="text-gray-600 hover:text-gray-800">
-                ENVIOS Y DEVOLUCIONES
+                FAQ
                 </button>
               </li>
               <li>
                 <button className="text-gray-600 hover:text-gray-800">
-                  STORE POLICY
-                </button>
-              </li>
-              <li>
-                <button className="text-gray-600 hover:text-gray-800">
-                  FAQ
+                STORE POLICY
                 </button>
               </li>
             </nav>
