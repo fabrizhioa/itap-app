@@ -68,7 +68,7 @@ const NavBar = () => {
   return (
     <header className="text-gray-600 body-font sticky  border-transparent md:border-transparent lg:border-neutral-600 h-30  lg:h-36 lg:flex  flex-col top-0 z-50 bg-[#dfdfdf] drop-shadow-md">
       <div className="container mx-auto flex p-1 flex-wrap justify-around  pt-4 flex-col lg:flex-row items-center">
-        <span className="w-20  pt-2 lg:w-52 h-full " />
+        <span className="w-20 lg:w-52 h-full"/>
         <img
           alt="hero"
           className="w-32  pt-2 lg:w-52 h-full "
