@@ -10,14 +10,14 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="container items-center   max-w-6xl lg:px-60  mx-auto space-y-0 text-center"></div>
+      <div className="container items-center   max-w-full lg:px-60  mx-auto space-y-0 text-center"></div>
       <div className=" w-3/3 lg:w-1/3"></div>
       <div
         data-aos="zoom-in "
         data-aos-duration="2000"
         data-aos-easing="ease-in-out"
       >
-        <div className=" relative  max-w-9xl  py-10 lg:py-0 mx-auto  ">
+        <div className=" relative  max-w-full  py-10 lg:py-0 mx-auto  ">
           <img alt="hero" className="" src={imagenes.img7} />
         </div>
       </div>
