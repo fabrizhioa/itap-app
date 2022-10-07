@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="pt-6 cursor-pointer text-gray-800 flex justify-center items-center w-full">
+      <div className="pt-6 cursor-pointer text-gray-800 flex justify-center  items-center w-full">
         <div className="grid lg:grid-cols-2 grid-cols-2 text-center gap-1">
           <div className="mb-6 md:mb-0">
             <h5 className="font-medium mb-2 text-center uppercase">
@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="mb-6 md:mb-0">
+          <div className="mb-6 md:mb-0 px-20">
             <h5 className="font-medium mb-2 cursor-pointer uppercase">
               Categorias
             </h5>
