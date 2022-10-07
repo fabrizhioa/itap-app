@@ -6,20 +6,21 @@ import imagenes from "../assets/imagenes";
 const NavBarContent = () => {
   return (
     <>
-      <ul className="flex flex-col p-2  mt-4 lg:bg-[#dfdfdf]   bg-gray-700 md:bg-[#dfdfdf]  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul className="flex flex-col p-2   mt-4 lg:bg-[#dfdfdf]   bg-gray-700 md:bg-[#dfdfdf]  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
           <button
             href="#"
-            className="block py-2 pr-4 pl-3  text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3  ease-in duration-300   text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             aria-current="page"
           >
             Inicio
           </button>
         </li>
+
         <li>
           <button
             href="#"
-            className="block py-2 pr-4 pl-3  text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3 delay-100  ease-in duration-300  text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded  hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Beneficios
           </button>
@@ -27,7 +28,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            className="block py-2 pr-4 pl-3 text-lg lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3 text-lg  ease-in duration-300  lg:text-base font-extralight text-gray-100 lg:text-gray-900 rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Productos
           </button>
@@ -35,7 +36,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            className="block py-2 pr-4 pl-3 text-lg lg:text-base text-gray-100 lg:text-gray-900 font-extralight rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3 text-lg  ease-in duration-300 lg:text-base text-gray-100 lg:text-gray-900 font-extralight rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Servicios
           </button>
@@ -43,7 +44,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            className="block py-2 pr-4 pl-3 text-lg text-gray-100 lg:text-base lg:text-gray-900  font-extralight rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3 text-lg ease-in duration-300  text-gray-100 lg:text-base lg:text-gray-900  font-extralight rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Nosotros
           </button>
@@ -52,7 +53,7 @@ const NavBarContent = () => {
         <li>
           <button
             href="#"
-            className="block py-2 pr-4 pl-3 text-lg text-gray-100 lg:text-base lg:text-gray-900  font-extralight rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            className="block py-2 pr-4 pl-3 text-lg ease-in duration-300  text-gray-100 lg:text-base lg:text-gray-900  font-extralight rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-50 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           >
             Contacto
           </button>
