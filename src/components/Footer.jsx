@@ -53,20 +53,20 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="mb-6 md:mb-0 px-20">
+          <div className="mb-6 md:mb-0 px-32">
             <h5 className="font-medium mb-2 cursor-pointer uppercase">
               Categorias
             </h5>
-
+            
             <nav className="list-none mb-10">
               <li>
                 <button className="text-gray-600 hover:text-gray-800">
-                  ENVIOS Y DEVOLUCIONES
+                METODOS DE PAGO
                 </button>
               </li>
               <li>
                 <button className="text-gray-600 hover:text-gray-800">
-                  METODOS DE PAGO
+                ENVIOS Y DEVOLUCIONES
                 </button>
               </li>
               <li>
